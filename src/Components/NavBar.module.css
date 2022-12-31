@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.NavMainCont {
+  height: 100px;
+  /* border: 1px red solid; */
+  font-family: "Lato", sans-serif;
+}
+.NavInnerCont {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px red solid; */
+  width: 70%;
+  margin: auto;
+}
+.NavInnerCont > div {
+  /* border: 1px red solid; */
+  width: 22%;
+}
+.NavInnerCont > div:nth-child(2) {
+  /* border: 1px red solid; */
+  width: 35%;
+}
+
+.NavLogodiv > img {
+  width: 220px;
+}
+.NavLogodiv > img:hover {
+  cursor: pointer;
+}
+
+.Nav_Acc_Cart_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav_Cart_CountP {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.35;
+  position: absolute;
+  top: 0px;
+  right: 42px;
+  background-color: red;
+  color: #fff;
+  height: 17px;
+  min-width: 19px;
+  border-radius: 50%;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 10px;
+}
+
+.Nav_AccLogoutBtn_div {
+  display: flex;
+  justify-content: space-between;
+}
+.Nav_AccFooter_Text {
+  /* margin: 10px 5px; */
+  padding: 10px 5px;
+}
+.Nav_AccFooter_Text:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}

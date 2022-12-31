@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.SmartSplurgesPage_mainCont {
+  width: 80%;
+  /* border: 1px red solid; */
+  display: flex;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+}
+.SmartSplurgesPage_sortPaginaDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  /* border: 1px green solid; */
+}
+.SmartSplurgesPage_sortDiv {
+  display: flex;
+  align-items: center;
+  /* border: 1px red solid; */
+}
+
+.SmartSplurgesPage_sortDiv > p {
+  margin-right: 20px;
+}
+
+.SmartSplurgesPage_TitleAndDesDiv {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  /* border: 1px red solid; */
+  margin-top: 60px;
+}
+
+.SmartSplurgesPage_TitleAndDesDiv > p:nth-child(1) {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.SmartSplurgesPage_TitleAndDesDiv > p:nth-child(2) {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: grey;
+}
+.SmartSplurgesPage_BreadcrumbDiv {
+  display: flex;
+  width: 70%;
+  /* border: 1px red solid; */
+  margin: auto;
+  margin-top: 30px;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.WhatPeopleBuy_mainCont {
+  width: 80%;
+  /* border: 1px red solid; */
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.WhatPeopleBuy_mainCont > div:nth-child(1) > p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.WhatPeopleBuy_BtnDiv {
+  display: flex;
+  align-items: center;
+}
+.WhatPeopleBuy_ProdDiv {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+}
+.WhatPeopleBuy_ProdDiv > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  /* border: 1px red solid; */
+  width: 20%;
+}
+
+.WhatPeopleBuy_ProdPriceDiv > p:nth-child(1) {
+  margin: 20px 0;
+
+  /* border: 1px red solid; */
+}
+
+.WhatPeopleBuy_ProdproductBlock_priceValueDiv > p {
+  margin-top: 20px;
+}

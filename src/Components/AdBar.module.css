@@ -1,0 +1,41 @@
+.Adbar_cont {
+  /* border: 1px red solid; */
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  background-color: #f2f2f2;
+}
+.Adbar_innerDiv > div {
+  width: 50%;
+  margin: 0 5px;
+}
+.Adbar_innerDiv {
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 220px;
+  margin-right: 300px;
+}
+.Adbar_imgDiv {
+  display: flex;
+  /* border: 1px red solid; */
+  width: auto;
+}
+.Adbar_imgDiv > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  /* border: 1px red solid; */
+  margin-right: 2px;
+  width: 30%;
+}
+.Adbar_imgDiv > div:nth-child(2) > p {
+  font-size: 15px;
+  text-align: center;
+}
+.Adbar_imgDiv > div > img {
+  /* border: 1px red solid; */
+  width: 15px;
+  border-radius: 100%;
+}

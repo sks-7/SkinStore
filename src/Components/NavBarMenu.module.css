@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.NavMenMainCont {
+  margin-top: 10px;
+  /* border: 1px red solid; */
+}
+.NavMenInnerCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px red solid; */
+  width: 70%;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}

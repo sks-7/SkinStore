@@ -1,0 +1,39 @@
+.Home_midBanner {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* border: 1px red solid; */
+}
+.Home_midBanner > img {
+  width: 100%;
+  margin: auto;
+}
+
+.Home_lastLogoBanner {
+  /* border: 1px red solid; */
+
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+.Home_lastLogoBanner > img {
+  width: 15%;
+  /* border: 1px red solid; */
+}
+
+.Home_LastBanner {
+  width: 75%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  /* border: 1px red solid; */
+}
+.Home_LastBanner > img {
+  width: 100%;
+  margin: auto;
+}

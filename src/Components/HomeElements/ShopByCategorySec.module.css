@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.ShopByCat_mainCont {
+  width: 80%;
+  /* border: 1px red solid; */
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
+}
+
+.ShopByCat_mainCont > div:nth-child(1) {
+  /* border: 1px red solid; */
+  margin: auto;
+}
+.ShopByCat_mainCont > div > p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

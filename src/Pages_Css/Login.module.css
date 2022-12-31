@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.loginPage_LogoMainCon {
+  height: 60px;
+  /* border: 1px red solid; */
+  background-color: white;
+}
+.loginPage_Logodiv {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+.loginPage_Logodiv > img {
+  width: 200px;
+}
+.loginPage_LogoMainOutCon {
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: "Lato", sans-serif;
+}
+
+.LoginForm_mainCont {
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto;
+  width: 70%;
+  margin-top: 60px;
+}
+.LoginForm {
+  background-color: white;
+  padding: 40px;
+}
+.LoginForm > p {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.loginPage_Logodiv > img:hover {
+  cursor: pointer;
+}
+
+.LoginForm_mainCont > div {
+  background-color: white;
+  width: 40%;
+}
+.RegisterForm {
+  display: flex;
+  flex-direction: column;
+
+  padding: 35px;
+}
+.RegisterForm > p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+form Input {
+  margin-bottom: 30px;
+}
+.reacticons {
+  margin-right: 10px;
+}

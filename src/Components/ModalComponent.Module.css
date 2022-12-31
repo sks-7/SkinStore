@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.productBlock_BottomTitle > p {
+  font-size: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+}
+.productBlock_TopMainDiv {
+  display: flex;
+  border: 1px red solid;
+}
+.productBlock_ProdDiv {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+}
+.productBlock_ProdDiv > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  /* border: 1px red solid; */
+  width: 20%;
+}
+
+.productBlock_ProdPriceDiv > p:nth-child(1) {
+  margin: 20px 0;
+
+  /* border: 1px red solid; */
+}

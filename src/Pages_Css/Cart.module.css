@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.Cart_mainCon {
+  width: 80%;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+.Cart_AlertDiv {
+  font-size: 13px;
+  border: 1px rgb(93, 190, 93) solid;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.Cart_TableQuantityCountspan {
+  font-size: 13px;
+  margin: 0 10px;
+}
+.Cart_TableRemoveDiv {
+  display: flex;
+  justify-content: center;
+  /* border: 1px red solid; */
+}
+
+.Cart_TableDiv {
+  width: 60%;
+}
+
+.Cart_TableDiv th,
+.Cart_TableDiv td {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Cart_innerMainCon {
+  display: flex;
+  /* border-radius: 1px red solid; */
+}
+
+.Cart_innerMainCon > div:nth-child(2) {
+  width: 40%;
+}
+.Cart_CheckOutBtnDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  /* border: 1px red solid; */
+  margin-top: 40px;
+}
+.WhatpeopleArebuyingSec_com {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.Cart_mainTitleCon {
+  /* border: 1px red solid; */
+  text-align: left;
+  padding: 30px 90px;
+  margin-top: 60px;
+}
+.Cart_mainTitleCon > p {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+.Cart_emptyCartCon p {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}

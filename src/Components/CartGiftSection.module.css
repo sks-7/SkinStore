@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.CartGiftSection_mainCont {
+  font-family: "Lato", sans-serif;
+}
+.CartGiftSection_innerdataDiv {
+  display: flex;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  align-items: center;
+  text-align: left;
+  
+}
+.CartGiftSection_innerdataDiv>div:nth-child(2){
+    font-size: 15px;
+    margin-left: 8px;
+    text-align: left;
+}
+.CartGiftSection_innerdataDiv>div:nth-child(1)>img{
+    width: 60px;
+}
+
+.CartGiftSection_innerdataDiv:hover{
+    cursor: pointer;
+}

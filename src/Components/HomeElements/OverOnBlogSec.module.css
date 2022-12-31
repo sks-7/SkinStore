@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.TrendingHomeSec_mainCont {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  font-family: "Lato", sans-serif;
+}
+.TrendingHomeSec_mainCont > div > p {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.TrendingHomeSec_innerdiv > img {
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+
+.TrendingHomeSec_innerdiv > p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.TrendingHomeSec_innerdiv > p:nth-child(3) {
+  font-size: 12px;
+
+  margin-bottom: 15px;
+}

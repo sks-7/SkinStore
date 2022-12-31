@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.registerPage_LogoMainCon {
+  height: 60px;
+  /* border: 1px red solid; */
+  background-color: white;
+}
+.registerPage_Logodiv {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+.registerPage_Logodiv > img {
+  width: 200px;
+}
+.registerPage_LogoMainOutCon {
+  height: 130vh;
+  background-color: #f2f2f2;
+  font-family: "Lato", sans-serif;
+  /* border: 1px red solid; */
+}
+
+.registerForm_mainCont {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+
+  margin: auto;
+  width: 900px;
+  margin-top: 60px;
+}
+.registerForm {
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  padding: 40px;
+}
+.registerForm > p {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.registerPage_Logodiv > img:hover {
+  cursor: pointer;
+}
+
+form {
+  margin-top: 30px;
+}
+form Input {
+  margin-bottom: 30px;
+}
+.reacticons {
+  margin-right: 10px;
+}

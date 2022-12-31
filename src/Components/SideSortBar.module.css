@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.SideSortBar_MainDIv {
+  text-align: left;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  margin-top: 80px;
+  /* border: 1px red solid; */
+  margin-left: 50px;
+}
+
+.CheckBox_maindiv {
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 130px;
+}
+
+.CheckBox_div {
+  display: flex;
+}
+.CheckBox_div > p {
+  margin-left: 10px;
+}
+.CheckBox_div > input {
+  margin-left: 10px;
+}
+
+.SideSortBar_Title {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+.SideSortBar_RefineTile {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
