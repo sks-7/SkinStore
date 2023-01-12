@@ -15,7 +15,7 @@ https://www.skinstore.com/
 
 
 ## Deployed Link : 🌟
-Site Deployed on Vercel [Click Here](https://supreme-honey-5251.vercel.app/).
+Site Deployed on Vercel [Click Here](https://skinstore-two.vercel.app/).
 
 
 
