@@ -61,7 +61,7 @@ const Register = () => {
   };
 
   const handleAutoRegister = () => {
-    setUserName("MAYURESH BAILURKAR");
+    setUserName("Sachin Kumar");
     setEmail("eve.holt@reqres.in");
     setPassword("pistol");
   };
